@@ -1,12 +1,10 @@
-import java.util.Dictionary;
-import java.util.Enumeration;
 import java.util.HashMap;
 
-public class Main {
+public class Lab1A_1 {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        int[] arr = new int[] {11, 2, 7, 15};
-        int z = 9;
+        int[] arr = new int[] {1,4,2,3};
+        int z = 5;
         System.out.println(sumFound(arr, z));
     }
 
