@@ -12,10 +12,10 @@ public class Main {
     }
 
     static int[] merge(int[] arr1, int[] arr2) {
-        int i = 0, j = 0, length = arr1.length + arr2.length;
-        int[] result = new int[length];
+        int i = 0, j = 0, n = arr1.length + arr2.length;
+        int[] result = new int[n];
         int ij = 0;
-        while (ij < length) {
+        while (ij < n) {
             if (i >= arr1.length) {
                 result[ij] = arr2[j];
                 j++;
