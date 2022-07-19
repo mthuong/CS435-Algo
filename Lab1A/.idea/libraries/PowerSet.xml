@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PowerSet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/PowerSet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -5,6 +5,10 @@ public class Lab1A_2 {
         System.out.println(secondSmallest(arr));
     }
 
+    /**
+     * Complexity is O(n) - because we loop the array 1 times
+     * Space complexity is O(1) - because we use 2 variables to store min and secondMin
+     */
     public static int secondSmallest(int[] arr) {
         if (arr == null || arr.length < 2) {
             throw new IllegalArgumentException("Input array too small");

@@ -8,6 +8,10 @@ public class Lab1A_1 {
         System.out.println(sumFound(arr, z));
     }
 
+    /**
+     * Complexity is O(n) - because we loop the array 1 times in the worse case
+     * Space complexity is O(n) - because we use hash map to store all subtract values to find the element that we can make sum of them equal to z
+     */
     public static boolean sumFound(int[] arr, int z) {
         if (arr == null || arr.length < 2) {
             return false;
