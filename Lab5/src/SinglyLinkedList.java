@@ -155,6 +155,21 @@ public class SinglyLinkedList {
         head = prev;
     }
 
+    Node reverse(Node head)
+    {
+        if (head == null || head.next == null)
+            return head;
+
+        Node rest = reverse(head.next);
+        head.next.next = head;
+
+        /* tricky step -- see the diagram */
+        head.next = null;
+
+        /* fix the head pointer */
+        return rest;
+    }
+
     public static void main(String[] args) {
 		SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
 		singlyLinkedList.add("4");

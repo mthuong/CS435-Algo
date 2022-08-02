@@ -27,6 +27,7 @@ public class MyBST {
 
 	private ArrayList<Integer> printTree(Node t, ArrayList<Integer> arr) {
 		if (t != null) {
+			// In order
 			ArrayList array = printTree(t.left, arr);
 			int currentValue = t.element;
 			array.add(currentValue);
